@@ -1,0 +1,453 @@
+<div class="content-wrapper " style="min-height: 823px;" >
+
+
+  <div class="content-header">
+    <div class="container-fluid">
+      <h1>Products</h1>
+    </div>
+  </div>
+
+
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row ">
+        <a class="btn btn-success btn-lg mb-3" href="http://localhost:8000/admin/products/create">
+          <i class="fas fa-x fa-plus-circle"></i> Add new
+        </a>
+
+
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Products</h3>
+          </div>
+          <div class="card-body card-body table-responsive p-0">
+            <div id="dataTableBuilder_wrapper" class="dataTables_wrapper no-footer">
+              <div class="dt-buttons btn-group flex-wrap"> <button
+                  class="btn btn-secondary buttons-create btn-default btn-sm no-corner" tabindex="0"
+                  aria-controls="dataTableBuilder" type="button"><span><i class="fa fa-plus"></i> Create</span></button>
+                <div class="btn-group"><button
+                    class="btn btn-secondary buttons-collection dropdown-toggle buttons-export btn-default btn-sm no-corner"
+                    tabindex="0" aria-controls="dataTableBuilder" type="button" aria-haspopup="true"
+                    aria-expanded="false"><span><i class="fa fa-download"></i> Export&nbsp;<span
+                        class="caret"></span></span></button></div> <button
+                  class="btn btn-secondary buttons-print btn-default btn-sm no-corner" tabindex="0"
+                  aria-controls="dataTableBuilder" type="button"><span><i class="fa fa-print"></i> Print</span></button>
+                <button class="btn btn-secondary buttons-reset btn-default btn-sm no-corner" tabindex="0"
+                  aria-controls="dataTableBuilder" type="button"><span><i class="fa fa-undo"></i> Reset</span></button>
+                <button class="btn btn-secondary buttons-reload btn-default btn-sm no-corner" tabindex="0"
+                  aria-controls="dataTableBuilder" type="button"><span><i class="fa fa-refresh"></i>
+                    Reload</span></button>
+              </div>
+              <div id="dataTableBuilder_filter" class="dataTables_filter"><label>Search:<input type="search" class=""
+                    placeholder="" aria-controls="dataTableBuilder"></label></div>
+              <div id="dataTableBuilder_processing" class="dataTables_processing" style="display: none;">Processing...
+              </div>
+              <table class="table table-striped table-bordered dataTable no-footer" id="dataTableBuilder" width="100%"
+                role="grid" aria-describedby="dataTableBuilder_info" style="width: 100%;">
+                <thead>
+                  <tr role="row">
+                    <th title="User I D" class="sorting_desc" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 77px;" aria-sort="descending"
+                      aria-label="User I D: activate to sort column ascending">User I D</th>
+                    <th title="Marketplaces I D" class="sorting" tabindex="0" aria-controls="dataTableBuilder"
+                      rowspan="1" colspan="1" style="width: 153px;"
+                      aria-label="Marketplaces I D: activate to sort column ascending">Marketplaces I D</th>
+                    <th title="Product Category I D" class="sorting" tabindex="0" aria-controls="dataTableBuilder"
+                      rowspan="1" colspan="1" style="width: 185px;"
+                      aria-label="Product Category I D: activate to sort column ascending">Product Category I D</th>
+                    <th title="Product Sub Category I D" class="sorting" tabindex="0" aria-controls="dataTableBuilder"
+                      rowspan="1" colspan="1" style="width: 223px;"
+                      aria-label="Product Sub Category I D: activate to sort column ascending">Product Sub Category I D
+                    </th>
+                    <th title="Name" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 352px;" aria-label="Name: activate to sort column ascending">Name</th>
+                    <th title="Quantity" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 83px;" aria-label="Quantity: activate to sort column ascending">Quantity
+                    </th>
+                    <th title="Quantity Type I D" class="sorting" tabindex="0" aria-controls="dataTableBuilder"
+                      rowspan="1" colspan="1" style="width: 156px;"
+                      aria-label="Quantity Type I D: activate to sort column ascending">Quantity Type I D</th>
+                    <th title="Purchasing Price" class="sorting" tabindex="0" aria-controls="dataTableBuilder"
+                      rowspan="1" colspan="1" style="width: 153px;"
+                      aria-label="Purchasing Price: activate to sort column ascending">Purchasing Price</th>
+                    <th title="Selling Price" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 116px;" aria-label="Selling Price: activate to sort column ascending">
+                      Selling Price</th>
+                    <th title="Low Price" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 92px;" aria-label="Low Price: activate to sort column ascending">Low
+                      Price</th>
+                    <th title="Image" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 333px;" aria-label="Image: activate to sort column ascending">Image</th>
+                    <th title="Expiry Date" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 176px;" aria-label="Expiry Date: activate to sort column ascending">
+                      Expiry Date</th>
+                    <th title="Barcode" class="sorting" tabindex="0" aria-controls="dataTableBuilder" rowspan="1"
+                      colspan="1" style="width: 147px;" aria-label="Barcode: activate to sort column ascending">Barcode
+                    </th>
+                    <th title="Unlimited Quantity" class="sorting" tabindex="0" aria-controls="dataTableBuilder"
+                      rowspan="1" colspan="1" style="width: 175px;"
+                      aria-label="Unlimited Quantity: activate to sort column ascending">Unlimited Quantity</th>
+                    <th title="Action" width="120px" class="sorting_disabled" rowspan="1" colspan="1"
+                      style="width: 195px;" aria-label="Action">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1">539</td>
+                    <td>268</td>
+                    <td>99</td>
+                    <td>50</td>
+                    <td>Ad mollitia totam.</td>
+                    <td>301</td>
+                    <td>1</td>
+                    <td>1297.766</td>
+                    <td>1231.636</td>
+                    <td>2540.555</td>
+                    <td>https://lorempixel.com/640/480/?42824</td>
+                    <td>2021-05-27 15:34:30</td>
+                    <td>74242102353192</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/50" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/50" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/50/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="even">
+                    <td class="sorting_1">535</td>
+                    <td>265</td>
+                    <td>97</td>
+                    <td>49</td>
+                    <td>Modi necessitatibus consequatur.</td>
+                    <td>658</td>
+                    <td>3</td>
+                    <td>2563.019</td>
+                    <td>2861.425</td>
+                    <td>1866.332</td>
+                    <td>https://lorempixel.com/640/480/?95957</td>
+                    <td>2020-09-23 15:04:27</td>
+                    <td>45645625570090</td>
+                    <td>false</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/49" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/49" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/49/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1">531</td>
+                    <td>262</td>
+                    <td>95</td>
+                    <td>48</td>
+                    <td>Delectus voluptate dolores consequatur.</td>
+                    <td>829</td>
+                    <td>3</td>
+                    <td>1241.534</td>
+                    <td>2560.396</td>
+                    <td>1767.013</td>
+                    <td>https://lorempixel.com/640/480/?64708</td>
+                    <td>2021-01-25 00:46:32</td>
+                    <td>65919671387315</td>
+                    <td>false</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/48" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/48" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/48/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="even">
+                    <td class="sorting_1">527</td>
+                    <td>259</td>
+                    <td>93</td>
+                    <td>47</td>
+                    <td>Consequuntur praesentium voluptatem qui.</td>
+                    <td>714</td>
+                    <td>1</td>
+                    <td>1198.717</td>
+                    <td>2526.375</td>
+                    <td>1401.361</td>
+                    <td>https://lorempixel.com/640/480/?62094</td>
+                    <td>2021-04-07 01:06:38</td>
+                    <td>12568934961118</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/47" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/47" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/47/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1">523</td>
+                    <td>256</td>
+                    <td>91</td>
+                    <td>46</td>
+                    <td>Eos eos ipsam deleniti.</td>
+                    <td>443</td>
+                    <td>3</td>
+                    <td>2223.502</td>
+                    <td>1584.2</td>
+                    <td>2140.951</td>
+                    <td>https://lorempixel.com/640/480/?44308</td>
+                    <td>2021-01-07 12:55:22</td>
+                    <td>55888718365101</td>
+                    <td>false</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/46" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/46" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/46/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="even">
+                    <td class="sorting_1">519</td>
+                    <td>253</td>
+                    <td>89</td>
+                    <td>45</td>
+                    <td>Omnis quo nam suscipit.</td>
+                    <td>787</td>
+                    <td>2</td>
+                    <td>1722.358</td>
+                    <td>2410.349</td>
+                    <td>1963.101</td>
+                    <td>https://lorempixel.com/640/480/?39105</td>
+                    <td>2021-06-24 06:35:58</td>
+                    <td>44876738054205</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/45" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/45" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/45/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1">515</td>
+                    <td>250</td>
+                    <td>87</td>
+                    <td>44</td>
+                    <td>Culpa tempora non.</td>
+                    <td>718</td>
+                    <td>3</td>
+                    <td>2502.698</td>
+                    <td>1819.319</td>
+                    <td>1017.177</td>
+                    <td>https://lorempixel.com/640/480/?71668</td>
+                    <td>2021-04-04 20:11:37</td>
+                    <td>20587861163195</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/44" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/44" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/44/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="even">
+                    <td class="sorting_1">511</td>
+                    <td>247</td>
+                    <td>85</td>
+                    <td>43</td>
+                    <td>Commodi hic repellendus.</td>
+                    <td>4</td>
+                    <td>1</td>
+                    <td>1278.549</td>
+                    <td>2229.561</td>
+                    <td>2731.322</td>
+                    <td>https://lorempixel.com/640/480/?74243</td>
+                    <td>2020-09-24 19:48:38</td>
+                    <td>19410594681772</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/43" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/43" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/43/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1">507</td>
+                    <td>244</td>
+                    <td>83</td>
+                    <td>42</td>
+                    <td>Eius sint enim animi.</td>
+                    <td>818</td>
+                    <td>2</td>
+                    <td>1642.17</td>
+                    <td>1088.24</td>
+                    <td>2335.802</td>
+                    <td>https://lorempixel.com/640/480/?66602</td>
+                    <td>2020-07-09 03:50:50</td>
+                    <td>13147398975471</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/42" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/42" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/42/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr role="row" class="even">
+                    <td class="sorting_1">503</td>
+                    <td>241</td>
+                    <td>81</td>
+                    <td>41</td>
+                    <td>Impedit sed et omnis.</td>
+                    <td>995</td>
+                    <td>2</td>
+                    <td>1313.528</td>
+                    <td>2570.85</td>
+                    <td>2463.643</td>
+                    <td>https://lorempixel.com/640/480/?49774</td>
+                    <td>2020-08-21 22:19:40</td>
+                    <td>75844934317962</td>
+                    <td>true</td>
+                    <td>
+                      <form method="POST" action="http://localhost:8000/admin/products/41" accept-charset="UTF-8"><input
+                          name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden"
+                          value="WbDDhPatGbgVmm7RRw4l46kd67Oq5v8IQZSVLPim">
+                        <div class="btn-group">
+                          <a href="http://localhost:8000/admin/products/41" class="btn btn-warning btn-xs">
+                            <i class="fas fa-2x fa-eye"></i>
+                          </a>
+                          <a href="http://localhost:8000/admin/products/41/edit" class="btn btn-primary btn-xs">
+                            <i class="fas fa-2x fa-edit"></i>
+                          </a>
+                          <button type="submit" class="btn btn-danger btn-xs"
+                            onclick="return confirm('Are you sure?')"><i
+                              class="fas fa-2x fa-trash text-white"></i></button>
+                        </div>
+                      </form>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="dataTables_info" id="dataTableBuilder_info" role="status" aria-live="polite">Showing 1 to 10
+                of 50 entries</div>
+              <div class="dataTables_paginate paging_simple_numbers" id="dataTableBuilder_paginate"><a
+                  class="paginate_button previous disabled" aria-controls="dataTableBuilder" data-dt-idx="0"
+                  tabindex="-1" id="dataTableBuilder_previous">Previous</a><span><a class="paginate_button current"
+                    aria-controls="dataTableBuilder" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button "
+                    aria-controls="dataTableBuilder" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button "
+                    aria-controls="dataTableBuilder" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button "
+                    aria-controls="dataTableBuilder" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button "
+                    aria-controls="dataTableBuilder" data-dt-idx="5" tabindex="0">5</a></span><a
+                  class="paginate_button next" aria-controls="dataTableBuilder" data-dt-idx="6" tabindex="0"
+                  id="dataTableBuilder_next">Next</a></div>
+            </div>
+
+
+            <div class="text-center">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>

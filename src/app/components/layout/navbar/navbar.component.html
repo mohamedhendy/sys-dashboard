@@ -1,0 +1,67 @@
+<nav class="main-header navbar
+    navbar-expand-md
+    navbar-white navbar-light">
+
+
+  <ul class="navbar-nav p-0">
+
+    <li class="nav-item bt-men">
+      <a class="nav-link" data-widget="pushmenu" href="javascript:void(0)" data-enable-remember="true" id="menuBtn">
+        <i class="fas fa-bars" id="sidebarControlBTN"></i>
+      </a>
+    </li>
+
+    <form action="#" method="get" class="form-inline mx-2">
+      <div class="input-group">
+        <input class="form-control form-control-navbar" type="search" name="q" placeholder="SEARCH" aria-label="SEARCH">
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+
+  </ul>
+
+
+  <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav lang-ul">
+      <a class="nav-link" href="/lang/en">
+        <i class="fa fa-2x fa-language"></i>
+        <span class="badge  badge-info navbar-badge">ar</span>
+      </a>
+
+    </ul>
+    <li class="nav-item dropdown user-menu">
+      <a href="#" class="nav-link dropdown-toggle user-u-lang" data-toggle="dropdown">
+        <img src="https://rnmu.rw/wp-content/uploads/2019/10/man-300x300.png" class="user-image img-circle elevation-2"
+          alt="">
+        <span class="d-none d-md-inline">
+        </span>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right" style="left: inherit; right: -210.016px;top: 50px;">
+        <li class="user-header bg-primary
+                ">
+          <img src="https://rnmu.rw/wp-content/uploads/2019/10/man-300x300.png" class="img-circle elevation-2" alt="">
+          <p class="">
+
+            <small>a system user</small>
+          </p>
+        </li>
+        <li class="user-footer">
+          <a class="btn btn-default btn-flat float-right  btn-block " href="#"
+            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+            <i class="fa fa-fw fa-power-off"></i>
+            تسجيل خروج
+          </a>
+          <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST" style="display: none;">
+            <input type="hidden" name="_token" value="EJM8o5tHhmEPL7My4QwYvqopAKEcDIX5eCnPZd7m">
+          </form>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+</nav>

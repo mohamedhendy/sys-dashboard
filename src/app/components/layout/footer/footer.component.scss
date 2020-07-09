@@ -1,0 +1,10 @@
+footer {
+  border: 1px solid #ddd;
+  background-color: #fff !important;
+  padding: 13px;
+  height: 55px;
+  @media (max-width: 767.98px) {
+    height: auto;
+    font-size: 12px;
+  }
+}
